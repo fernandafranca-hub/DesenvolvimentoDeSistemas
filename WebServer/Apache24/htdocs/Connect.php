@@ -10,7 +10,7 @@ class Connect
     function __construct()
     {
         $this->host = "localhost";
-        $this->dbname = "TESTE";
+        $this->dbname = "teste";
         $this->password = "123456";
         $this->user = "postgres";
         $this->port = "5432";
