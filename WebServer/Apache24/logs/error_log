@@ -63,3 +63,38 @@ PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\Web
 PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\WebServer\\PHP_8.4\\ext\\intl (N\xc3\xa3o foi poss\xc3\xadvel encontrar o m\xc3\xb3dulo especificado), C:\\WebServer\\PHP_8.4\\ext\\php_intl.dll (N\xc3\xa3o foi poss\xc3\xadvel encontrar o m\xc3\xb3dulo especificado)) in Unknown on line 0
 [Mon May 11 20:52:05.002162 2026] [mpm_winnt:notice] [pid 11756:tid 444] AH00354: Child: Starting 64 worker threads.
 [Mon May 11 21:45:55.928151 2026] [php:error] [pid 11756:tid 1248] [client ::1:53073] PHP Parse error:  syntax error, unexpected token "=" in C:\\WebServer\\Apache24\\htdocs\\Connect.php on line 24, referer: http://localhost/
+Starting the 'Apache' service
+The 'Apache' service is running.
+ [core:warn] [pid 4228:tid 392] AH00098: pid file C:/WebServer/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  'C:\\Windows\\SYSTEM32\\VCRUNTIME140.dll' 14.38 is not compatible with this PHP build linked with 14.44 in Unknown on line 0
+[Wed May 13 19:19:10.252510 2026] [:emerg] [pid 4228:tid 392] AH00020: Configuration Failed, exiting
+Starting the 'Apache24' service
+The 'Apache24' service is running.
+core:warn] [pid 8872:tid 376] AH00098: pid file C:/WebServer/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  'C:\\Windows\\SYSTEM32\\VCRUNTIME140.dll' 14.38 is not compatible with this PHP build linked with 14.44 in Unknown on line 0
+[Wed May 13 19:24:12.452830 2026] [:emerg] [pid 8872:tid 376] AH00020: Configuration Failed, exiting
+[Wed May 13 19:24:19.659306 2026] [core:warn] [pid 12040:tid 376] AH00098: pid file C:/WebServer/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  'C:\\Windows\\SYSTEM32\\VCRUNTIME140.dll' 14.38 is not compatible with this PHP build linked with 14.44 in Unknown on line 0
+[Wed May 13 19:24:19.675296 2026] [:emerg] [pid 12040:tid 376] AH00020: Configuration Failed, exiting
+The 'Apache24' service is restarting.
+Starting the 'Apache24' service
+The 'Apache24' service is running.
+core:warn] [pid 9644:tid 376] AH00098: pid file C:/WebServer/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\WebServer\\PHP_8.4\\ext\\curl (N\xc3\xa3o foi poss\xc3\xadvel encontrar o m\xc3\xb3dulo especificado), C:\\WebServer\\PHP_8.4\\ext\\php_curl.dll (N\xc3\xa3o foi poss\xc3\xadvel encontrar o m\xc3\xb3dulo especificado)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\WebServer\\PHP_8.4\\ext\\intl (N\xc3\xa3o foi poss\xc3\xadvel encontrar o m\xc3\xb3dulo especificado), C:\\WebServer\\PHP_8.4\\ext\\php_intl.dll (N\xc3\xa3o foi poss\xc3\xadvel encontrar o m\xc3\xb3dulo especificado)) in Unknown on line 0
+[Wed May 13 19:37:42.410169 2026] [mpm_winnt:notice] [pid 9644:tid 376] AH00455: Apache/2.4.66 (Win64) PHP/8.4.20 configured -- resuming normal operations
+[Wed May 13 19:37:42.410169 2026] [mpm_winnt:notice] [pid 9644:tid 376] AH00456: Server built: Dec  6 2025 07:20:52
+[Wed May 13 19:37:42.410169 2026] [core:notice] [pid 9644:tid 376] AH00094: Command line: 'C:\\WebServer\\Apache24\\bin\\httpd.exe -d C:/WebServer/Apache24'
+[Wed May 13 19:37:42.413169 2026] [mpm_winnt:notice] [pid 9644:tid 376] AH00418: Parent: Created child process 4228
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\WebServer\\PHP_8.4\\ext\\curl (N\xc3\xa3o foi poss\xc3\xadvel encontrar o m\xc3\xb3dulo especificado), C:\\WebServer\\PHP_8.4\\ext\\php_curl.dll (N\xc3\xa3o foi poss\xc3\xadvel encontrar o m\xc3\xb3dulo especificado)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:\\WebServer\\PHP_8.4\\ext\\intl (N\xc3\xa3o foi poss\xc3\xadvel encontrar o m\xc3\xb3dulo especificado), C:\\WebServer\\PHP_8.4\\ext\\php_intl.dll (N\xc3\xa3o foi poss\xc3\xadvel encontrar o m\xc3\xb3dulo especificado)) in Unknown on line 0
+[Wed May 13 19:37:42.745011 2026] [mpm_winnt:notice] [pid 4228:tid 392] AH00354: Child: Starting 64 worker threads.
+[Wed May 13 19:49:18.047728 2026] [php:error] [pid 4228:tid 1176] [client ::1:53442] PHP Parse error:  syntax error, unexpected variable "$this" in C:\\WebServer\\Apache24\\htdocs\\Aluno.php on line 10, referer: http://localhost/
+[Wed May 13 20:16:24.310043 2026] [php:error] [pid 4228:tid 1180] [client ::1:54498] PHP Parse error:  syntax error, unexpected variable "$this" in C:\\WebServer\\Apache24\\htdocs\\Aluno.php on line 10, referer: http://localhost/cadastro_aluno.php
+[Wed May 13 21:07:28.208386 2026] [php:error] [pid 4228:tid 1176] [client ::1:55449] PHP Parse error:  syntax error, unexpected variable "$this" in C:\\WebServer\\Apache24\\htdocs\\Aluno.php on line 10, referer: http://localhost/cadastro_aluno.php
+[Wed May 13 21:27:44.851999 2026] [php:error] [pid 4228:tid 1176] [client ::1:55798] PHP Parse error:  syntax error, unexpected variable "$this" in C:\\WebServer\\Apache24\\htdocs\\Aluno.php on line 10, referer: http://localhost/cadastro_aluno.php
+[Wed May 13 21:32:41.584733 2026] [php:error] [pid 4228:tid 1180] [client ::1:55888] PHP Parse error:  syntax error, unexpected variable "$this" in C:\\WebServer\\Apache24\\htdocs\\Aluno.php on line 10, referer: http://localhost/cadastro_aluno.php
+[Wed May 13 21:34:06.803962 2026] [php:error] [pid 4228:tid 1176] [client ::1:55926] PHP Parse error:  syntax error, unexpected identifier "TRUE" in C:\\WebServer\\Apache24\\htdocs\\Aluno.php on line 23, referer: http://localhost/cadastro_aluno.php
+[Wed May 13 21:37:01.714058 2026] [php:error] [pid 4228:tid 1180] [client ::1:55973] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::execuet() in C:\\WebServer\\Apache24\\htdocs\\Aluno.php:22\nStack trace:\n#0 C:\\WebServer\\Apache24\\htdocs\\Salvar.php(7): Aluno->cadastrarAluno('Fernanda', 'fernanda@hotmai...')\n#1 {main}\n  thrown in C:\\WebServer\\Apache24\\htdocs\\Aluno.php on line 22, referer: http://localhost/cadastro_aluno.php
+[Wed May 13 21:37:16.121812 2026] [php:error] [pid 4228:tid 1180] [client ::1:55978] PHP Fatal error:  Uncaught Error: Call to undefined method PDOStatement::execuet() in C:\\WebServer\\Apache24\\htdocs\\Aluno.php:22\nStack trace:\n#0 C:\\WebServer\\Apache24\\htdocs\\Salvar.php(7): Aluno->cadastrarAluno('Fernanda', 'fernanda@hotmai...')\n#1 {main}\n  thrown in C:\\WebServer\\Apache24\\htdocs\\Aluno.php on line 22, referer: http://localhost/cadastro_aluno.php
+[Wed May 13 21:38:12.013196 2026] [php:error] [pid 4228:tid 1180] [client ::1:56008] script 'C:/WebServer/Apache24/htdocs/cadastro alunop.php' not found or unable to stat, referer: http://localhost/

@@ -20,8 +20,7 @@ class Connect
     {
         try
         {
-            $PDO = new PDO("pgsql:host=".$this->host.";port=".$this->port.";dbname=".$this->dbname,$this->user,$this->password);
-            echo "Funcionou!";
+            $PDO = new PDO("pgsql:host=".$this->host.";port=".$this->port.";dbname=".$this->dbname,$this->user,$this->password);            
             return($PDO);
         }
         catch(PDOException $erro)
