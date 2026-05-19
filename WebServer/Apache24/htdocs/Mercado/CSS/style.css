@@ -1,0 +1,54 @@
+
+body{
+    display: flex;   
+}
+
+.lado-esquerdo{
+    width: 50%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 350px;
+}
+
+.lado-direito{
+    width: 50%;    
+    display: flex;
+    background: #e93612;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px;
+}
+
+h1{
+    margin-bottom: 30px;
+    color: black;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input,
+textarea{
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+input[type="submit"]{
+    margin-top: 20px;
+    background: #2d3748;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
