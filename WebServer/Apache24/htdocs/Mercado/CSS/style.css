@@ -4,20 +4,20 @@ body{
 }
 
 .lado-esquerdo{
-    width: 50%;    
+    width: 40%;    
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 img{
-    width: 350px;
+    width: 550px;
 }
 
 .lado-direito{
-    width: 50%;    
+    width: 60%;    
     display: flex;
-    background: #e93612;
+    background: #ff7a00;
     flex-direction: column;
     justify-content: center;
     padding: 80px;
@@ -25,7 +25,9 @@ img{
 
 h1{
     margin-bottom: 30px;
-    color: black;
+    color: #1e3e75;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px;
 }
 
 form{
@@ -36,19 +38,30 @@ form{
 label{
     margin-top: 15px;
     margin-bottom: 5px;
+    color: #18315e;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 input,
 textarea{
     padding: 12px;
     border: 1px solid #ccc;
-    border-radius: 8px;
+    border-radius: 8px;  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    
 }
 
 input[type="submit"]{
     margin-top: 20px;
-    background: #2d3748;
+    background: #1e3e75;
     color: white;
     border: none;
-    cursor: pointer;
+    cursor: pointer;   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: bold;
+
 }

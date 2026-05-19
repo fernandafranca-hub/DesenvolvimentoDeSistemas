@@ -10,7 +10,7 @@ class Connect_mercado
     function __construct()
     {
         $this->host = "localhost";
-        $this->dbname = "mercado";
+        $this->dbname = "Connect_mercado";
         $this->password = "123456";
         $this->user = "postgres";
         $this->port = "5432";
